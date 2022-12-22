@@ -27,6 +27,20 @@
 			<li>Opción</li>
 		</ol>
 	</nav>
+
+	<p>Esto es un blockquote</p>
+
+	<blockquote>Muchachooooo</blockquote>
+
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/Xl6nlZJr-G4" title="YouTube video player"
+		frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+		allowfullscreen></iframe>
+
+	<iframe
+		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.102370777455!2d-65.20939048432479!3d-26.836696096503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1671662620014!5m2!1ses!2sar"
+		width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+		referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 	<br>
 	<header>En este encabezado o header vamos a poner info general de la página
 		<img
@@ -58,6 +72,8 @@
 				<li><i>Opción</i></li>
 				<li>Opción</li>
 			</ol>
+
+
 			<p><strong>Lorem</strong> ipsum dolor sit amet consectetur adipisicing elit. Facere quo nobis consequatur modi
 				fuga dolore dolor
 				praesentium voluptatum repellendus, vero nemo blanditiis ratione enim sapiente culpa est eius quam a?
@@ -84,7 +100,72 @@
 		<p id="p3">2</p>
 	</div>
 
-	<footer>Este es nuestro footer Copyright 43i</footer>
+	<footer>
+		<p>Este es nuestro footer Copyright 43i</p>
+
+		<form action="./scripts/scripts.js">
+			<label for="name">Nombre</label>
+			<input id="name" name="name" type="text">
+			<br>
+			<label for="mail">Mail</label>
+			<input id="mail" name="mail" type="email">
+			<br>
+			<label for="area">Frontend</label>
+			<input id="area" name="area" type="radio" value="Frontend">
+			<label for="area">Backend</label>
+			<input id="area" name="area" type="radio" value="Backend">
+			<label for="area">Fullstack</label>
+			<input id="area" name="area" type="radio" value="Fullstack">
+			<br>
+			<button type="submit">Enviar</button>
+		</form>
+
+		<!-- El formulario debe estar dentro de un tag form, con la accion que se va a disparar -->
+		<form action="">
+			<!-- Diferentes input o entradas de datos -->
+			<!-- type text -->
+			<label for="lenguaje">Lenguaje Preferido</label>
+			<input id="lenguaje" type="text" name="lenguaje">
+			<br>
+			<!-- type checkbox (elijo mas de uno) -->
+			<label for="conocimientos">Sos mayor de 18?</label>
+			<input id="conocimientos1" type="checkbox">
+			<br>
+
+			<br>
+			<!-- type radio (elijo solo uno) -->
+			<label for="color">Rojo</label>
+			<input id="color" name="color" type="radio">
+			<br>
+			<label for="color">Blanco</label>
+			<input id="rojo" name="color" type="radio">
+			<br>
+			<!-- type password -->
+			<label for="clave">Clave</label>
+			<input id="clave" type="password">
+			<br>
+			<!-- type number -->
+			<label for="numero">Numero</label>
+			<input id="numero" type="number">
+			<br>
+			<button type="submit">Enviar</button>
+		</form>
+
+		<form action="https://formspree.io/f/{form_id}" method="post" novalidate>
+			<label for="email">Your Email</label>
+			<input name="Email" id="email" type="email" required placeholder="email">
+			<button type="submit">Submit</button>
+		</form>
+		<!-- 
+			name = roberto
+		mail = mail@roberto.com
+		area = Fullstack
+		-->
+	</footer>
+
+
+
+	<div style="height: 200px;"></div>
 </body>
 
 </html>

@@ -1,0 +1,1 @@
+alert("Esto es javascript, pero desde otro archivo")
