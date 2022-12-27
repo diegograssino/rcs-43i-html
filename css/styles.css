@@ -1,0 +1,40 @@
+		 h3 {
+		 	color: brown
+		 }
+
+		 #ejemplo-id {
+		 	color: chartreuse
+		 }
+
+		 .color-crimson {
+		 	color: crimson;
+		 }
+
+		 .bg-color-blue {
+		 	background-color: blue;
+		 }
+
+		 .text-underline {
+		 	text-decoration: underline;
+		 }
+
+		 article.principal h2 {
+		 	text-decoration: underline;
+		 }
+
+		 article.secundario h2 {
+		 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+		 }
+
+		 article h2 span {
+		 	color: blue
+		 }
+
+		 article p span {
+		 	font-size: 32px;
+		 }
+
+		 article p span.custom {
+		 	font-size: 16px;
+		 	text-decoration: underline;
+		 }
